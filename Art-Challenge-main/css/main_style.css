@@ -1,7 +1,7 @@
 
 body{
-	font-family: Serif;
-	background-color: #11345C;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #FFFFFF;
 	overflow: auto;
 	
 }
@@ -12,17 +12,26 @@ main{
 
 header{
 	background-color: #11345C;
+	padding: 2%;
 }
 
 h1{
-	color:#FFFFFF
+	color:#FFFFFF;
 }
 
 h2{
 	color:#11345C;
 }
 
-  
+form{
+	color:#05172c;
+}
+
+.box{
+	padding: 15px;
+	height: 245px;
+	background-color:#92A8AD;
+}  
 
 menu li{
     color: #0855A1;
@@ -51,7 +60,7 @@ menu li a{
   height: auto;
 }
 
- .row:after {
+.row:after {
   content: "";
   display: table;
   clear: both;
@@ -60,11 +69,12 @@ menu li a{
 .column {
   float: left;
   padding: 10px;
-  height: 300px;
+  height: 375px;
 }
 
 .left{
 	width: 30%;
+	
 }
 
 .right{
@@ -90,4 +100,6 @@ footer{
 	bottom: 0;
 	width: 100%;
 	text-decoration: none;
+	font-size: 10px;
+	background-color: #FFFFFF;
 }
