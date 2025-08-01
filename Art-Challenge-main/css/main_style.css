@@ -3,14 +3,12 @@
 
 body{
 	font-family: Serif;
+	background-color: #11345C;
 }
 
 main{
-
-		color: #11345C;
+		
 		text-decoration: none;
-
-	
 }
 
 header{
@@ -67,11 +65,11 @@ menu li a{
 }
 
 .left{
-	width: 25%;
+	width: 30%;
 }
 
 .right{
-	width: 75%;
+	width: 70%;
 }
 
 * {
