@@ -1,14 +1,13 @@
 
-
-
 body{
 	font-family: Serif;
 	background-color: #11345C;
+	overflow: auto;
+	
 }
 
 main{
-		
-		text-decoration: none;
+	text-decoration: none;
 }
 
 header{
@@ -86,7 +85,9 @@ main{
 }
 
 footer{
-	align-items: right;
-	color: #11345C;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 	text-decoration: none;
 }
